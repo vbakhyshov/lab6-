@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Твоя Дипломатка</title>
+    <link rel="shortcut icon" href="Images/ua_herb.png"
+</head>
+<body>
+    <center>
+        <h1><font size="7" color="#e0c52e" face="serif">Дипломатка Українця</font></h1>
+    <table class="links">
+        <tr>
+            <td><a href="index.html">Головна</a></td>
+            <td><a href="https://www.radiosvoboda.org/z/16697">Новини</a></td>
+            <td><a href="https://deepstatemap.live/">Мапа війни</a></td>
+            <td><a href="https://petition.president.gov.ua/">Петиції до Президента</a></td>
+            <td><a href="https://diia.gov.ua/">Дія</a></td>
+            <td><a href="https://savelife.in.ua/">Донати на ЗСУ</a></td>
+            <td><a href="https://lifelineukraine.com/">Допомога</a></td>
+            <td><a href="https://map.ukrainealarm.com/">Повітряна тривога</a></td>
+        </tr>
+    </table>
+	
+    <h3 style="background-color: #e0c52e; color: #191935; margin-left: 19%; margin-right: 19%;">
+        Залишились питання або знайшли помилку?<br>Напишіть нам та отримайте відповідь миттєво!</h3>
+    <form id="registration" style="background-color: white; color: #191935;  font-size: x-large;">
+        <fieldset>
+            <legend>Форма реєстрації</legend>
+            <table class="alignment">
+                <tr>
+                <td> <label for=fio>ПІБ</label></td>
+                <td> <input id=fio name=fio type=text required></td>
+                </tr>
+                <tr>
+                <td><label for=email>Email</label></td>
+                <td> <input id=email name=email type=email required> </td>
+                </tr>
+                <tr>
+                <td> <label for=phone>Номер телефону</label> </td>
+                <td> <input id=phone name=phone type=tel pattern=" [(]\d{3,4}[)]\s\d{2,3}[-]\d{2}[-]\d{ 2}" required></td>
+                </tr>
+            </table> 
+        </fieldset>
+        <fieldset>
+            <legend>Ваше питання та/або зауваження</legend>
+            <table>
+                <tr>
+                <td><label for=subject>Тема</label></td>
+                <td><textarea id=subject name=subject rows=5 ></textarea></td>
+                </tr>
+                <tr>
+                <td><label for=desciption>Опис проблеми</label></td>
+                <td><input id=desciption name=desciption type=text required></td>
+                <!--<td><label for="postcode">Поштовий індекс:</label></td>
+                <td><input type="text" id="postcode" name="postcode" pattern="[0-9]{5}"
+                title="Введіть 5 цифр поштового індексу" required></td>
+                -->
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Уподобаний спосіб отримання повідомлень</legend>
+            <table>
+                <tr>
+                <td><input id=emailmessage name=message type=radio></td>
+                <td><label for=emailmessage>По Email</label></td>
+                </tr>
+                <tr>
+                <td><input id=phonemessage name=message type=radio></td>
+                <td><label for=phonemessage>По телефону</label></td>
+                </tr>
+                <tr>
+                <td><input id=nomessage name=message type=radio></td>
+                <td><label for=nomessage>Не повідомляти мене</label></td>
+                </tr>
+            </table>
+        </fieldset>
+        <button type=submit>Надіслати</button>
+    </form>
+
+
+    
+    <br><br><br><br><br><br><br><br>
+    <table class="links">
+        <tr>
+            <td><a href="contacts.html">Контакти</a></td>
+            <td><a href="ads.html">Реклама</a></td>
+        </tr>
+    </table>
+    </center>
+</body>
+</html>

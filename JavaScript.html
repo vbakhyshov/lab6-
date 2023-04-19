@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/lr4.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <title>JavaScript</title>
+</head>
+<body onload="daysSinceNewYear();">
+    <center>
+        <h1><font size="7" color="#e0c52e" face="serif">Дипломатка Українця</font></h1>
+        <table class="links">
+            <tr>
+                <td><a href="index.html">Головна</a></td>
+                <td><a href="https://www.radiosvoboda.org/z/16697">Новини</a></td>
+                <td><a href="https://deepstatemap.live/">Мапа війни</a></td>
+                <td><a href="https://petition.president.gov.ua/">Петиції до Президента</a></td>
+                <td><a href="https://diia.gov.ua/">Дія</a></td>
+                <td><a href="https://savelife.in.ua/">Донати на ЗСУ</a></td>
+                <td><a href="https://lifelineukraine.com/">Допомога</a></td>
+                <td><a href="https://map.ukrainealarm.com/">Повітряна тривога</a></td>
+            </tr>
+        </table>
+        <br><br><br>
+        <fieldset style="background-color: rgb(212, 88, 88); margin-left: 40%; margin-right: 40%;">
+            <form>
+                <label>Введіть дату<br>(YYYY/MM/DD):<br><input type="text" id="input"><br></label>
+                <button type="button" onclick="calculateWeeks()">OK</button>
+                <button type="reset">Відміна</button>
+                <br><br>
+                <a href="#" style="color: rgb(0, 0, 0);" id="time-link" onclick="timeLink()">Поточний час</a>
+            </form>
+		
+            <div id="currentDateTime"></div>
+		</fieldset>
+		</form>
+        <br>
+		<div id="logo-container">
+		    <img width="60px" id="logo" src="Images/logo1.png" alt="Ubuntu">
+            <br><br><br>
+            <img width="100px" id="logo" src="Images/logo2.png" alt="Windows">
+            <br><br><br>
+		    <img width="120px" id="logo" src="Images/logo3.png" alt="Apple">
+            <br><br><br>
+	    </div>
+
+    	<br><br><br><br><br><br><br><br>
+        <table class="links">
+            <tr>
+                <td><a href="contacts.html">Контакти</a></td>
+                <td><a href="ads.html">Реклама</a></td>
+            </tr>
+        </table>
+    </center>
+</body>
+</html>
